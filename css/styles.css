@@ -43,6 +43,11 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+.navi:hover {
+    color: var(--pressed-state);
+}
+
 .address {
     color: var(--text);
     font-family: Roboto;
