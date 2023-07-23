@@ -69,3 +69,6 @@
     letter-spacing: 0.32px;
 
 }
+.hero-section {
+    background-color: var(--hero-background);
+}
