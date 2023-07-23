@@ -31,7 +31,7 @@
 .accent-footer {
     color: var(--light);
 }
-
+/* benefits header*/
 .navi {
     list-style-type: none;
 } 
@@ -69,6 +69,104 @@
     letter-spacing: 0.32px;
 
 }
+
+/* hero section */
+
 .hero-section {
     background-color: var(--hero-background);
 }
+
+.hero-title {
+    color: var(--white-background);
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+}
+.hero-button {
+    color: var(--white-background);
+    background-color: var(--primary-dark);
+    border: none;
+}
+
+/*advan-section*/
+
+.list-advan {
+    list-style-type: none;
+ }
+
+.advantages {
+   color: var(--dark);
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 24px; /* 120% */
+   letter-spacing: 0.4px;
+}
+
+.advantages-title {
+    color: var(--text);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+ }
+
+ /*doing-section*/
+
+ .doing {
+    color: var(--dark);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+ }
+
+ .doing-foto {
+    list-style-type: none; 
+ }
+
+ /*team-section*/
+ 
+ .team-section {
+    list-style-type: none;
+    background-color: var(--light);
+ }
+
+ .team {
+    color: var(--dark);
+    list-style-type: none;
+ }
+
+ .team-foto {
+    list-style-type: none;
+ }
+
+ .team-name {
+    color: var(--dark);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+ }
+
+ .team-job {
+    color: var(--dark);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+ }
+ 
