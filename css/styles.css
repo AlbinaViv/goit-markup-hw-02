@@ -209,7 +209,7 @@ a {
 }
 /* buttons sections */
 
-.all, .web-site, .app, .design, .marketing {
+.all {
     color: var(--primary-dark);
     background-color: var(--light);
     text-align: center;
@@ -217,10 +217,12 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 1,5;
-    border: none;    
+    border: none;
+    list-style: none;
+    text-decoration: none;    
 }
 
-.all:hover, .web-site:hover, .app:hover, .design:hover, .marketing:hover {
+.all:hover {
     color: var(--white-background);
     background-color: var(--pressed-state);
     border: none;
