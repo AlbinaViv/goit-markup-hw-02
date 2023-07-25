@@ -18,6 +18,12 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+ul {
+    list-style-type: none;   
+}
+a { 
+    text-decoration: none;
+}
 
 .logo {
     color: var(--primary-dark);
@@ -36,15 +42,6 @@ body {
 }
 
 /* benefits header*/
-
-ul {
-    list-style-type: none;   
-}
-
-a { 
-    text-decoration: none;
-}
-
 
 .navi-stu:hover, .navi-por:hover, .navi-con:hover {
     color: var(--pressed-state);
