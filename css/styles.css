@@ -57,6 +57,8 @@
 /* lodo */
 
 body {
+    color: var(--text);
+    background-color: var(--white-background);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -73,9 +75,10 @@ a {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1,6;
+    line-height: 1,17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .accent {
@@ -84,16 +87,17 @@ a {
 
 /* benefits header*/
 
-.navi-stu:hover, .navi-por:hover, .navi-con:hover {
+.list-stu:hover, .list-por:hover, .list-con:hover {
     color: var(--pressed-state);
 }   
-.navi-stu, .navi-por, .navi-con {
+.list-stu, .list-por, .list-con {
     color: var(--dark);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 1,5 */
-    letter-spacing: 0.32px;
+    line-height: 1,5;
+    letter-spacing: 0.02em 
+    list-style: none
 }
 
 .mail:hover, .tel:hover {
@@ -121,7 +125,7 @@ a {
     color: var(--white-background);
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px; /* 1,07 */
+    line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
     text-transform: uppercase;
@@ -131,7 +135,7 @@ a {
     background-color: var(--primary-dark);
     border: none;
     front-weight: 16px;
-    line-height: 1,85;
+    line-height: 1,5;
     text-align: center;
     text-transform: uppercase;
 
@@ -161,7 +165,7 @@ a {
     color: var(--dark);
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px; /* 1,11 */
+    line-height: 1,2; /* 1,11 */
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -189,16 +193,19 @@ a {
     color: var(--dark);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px; /* 1,2 */
+    line-height: 1,11; /* 1,2 */
     letter-spacing: 0.4px;
+    text-align: center
+    text-transform: capitalize 
 }
 
 .team-job {
     color: var(--dark);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 1,5 */
-    letter-spacing: 0.32px;
+    line-height: 1,5; /* 1,5 */
+    letter-spacing: 0.02em
+    text-align: center
 }
 /* buttons sections */
 
@@ -210,16 +217,13 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 1,5;
-    border: none;
-    border-radius: 4px;
-    
+    border: none;    
 }
 
 .all:hover, .web-site:hover, .app:hover, .design:hover, .marketing:hover {
     color: var(--white-background);
     background-color: var(--pressed-state);
     border: none;
-    border-radius: 4px;
     text-align: center;
 
  }
@@ -259,6 +263,6 @@ a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1,17;
+    line-height: 1,5;
     letter-spacing: 0.32px;
 }
