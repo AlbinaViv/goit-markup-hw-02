@@ -1,3 +1,44 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+
+
 :root {
    --primary-dark: #4D5AE5;
    --pressed-state: #404BBF;
@@ -17,6 +58,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 ul {
     list-style-type: none;   
@@ -34,7 +76,6 @@ a {
     line-height: 1,6;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .accent {
@@ -70,11 +111,6 @@ a {
 
 /* style on main */
 
-.body {
-    font-style: normal;
-
-}
-
 /* hero section */
 
 .hero-section {
@@ -107,7 +143,7 @@ a {
    color: var(--dark);
    font-size: 20px;
    font-weight: 500;
-   line-height: 24px; /* 1,2*/
+   line-height: 1,2; 
    letter-spacing: 0.4px;
 }
 
@@ -115,7 +151,7 @@ a {
     color: var(--text);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 1,5 */
+    line-height: 1,5;
     letter-spacing: 0.32px;
 }
 
@@ -129,6 +165,9 @@ a {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+.doing-foto {
+    
+}
 
 
  /*team-section*/
@@ -139,6 +178,10 @@ a {
 
 .team {
     color: var(--dark);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
 }
 
 
@@ -159,24 +202,47 @@ a {
 }
 /* buttons sections */
 
-.buttons {
+.all, .web-site, .app, .design, .marketing {
     color: var(--primary-dark);
+    background-color: var(--light);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,5;
+    border: none;
+    border-radius: 4px;
     
 }
 
-.butt:hover {
+.all:hover, .web-site:hover, .app:hover, .design:hover, .marketing:hover {
     color: var(--white-background);
     background-color: var(--pressed-state);
     border: none;
+    border-radius: 4px;
+    text-align: center;
+
  }
-.butt {
-    background-color: var(--pressed-state);
-    border: none;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px; /* 1,5 */
-    letter-spacing: 0.32px;
+/* cards-section */
+
+.card-name {
+    color: var(--dark);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,2;
+    letter-spacing: 0.4px;
+    
 }
+.post {
+  color: var(--text);  
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1,5;
+  letter-spacing: 0.32px;
+}
+
 /* footer */
 
 .footer {
