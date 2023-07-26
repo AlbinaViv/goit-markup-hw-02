@@ -100,11 +100,19 @@ font-style: normal;
 .hero-button {
     color: var(--white-background);
     background-color: var(--primary-dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
     border: none;
-    front-weight: 16px;
+    front-weight: 500;
     line-height: 1.5;
     text-align: center;
     text-transform: capitalize;
+    cursor: pointer;
+
+}
+.hero-button:hover {
+    background-color: var(--pressed-state);
 
 }
 
@@ -132,9 +140,10 @@ font-style: normal;
     color: var(--dark);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2; /* 1,11 */
+    ine-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 .doing-foto {
     
@@ -152,22 +161,28 @@ font-style: normal;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
-
+.team-foto {
+    background-color: var(--white-background);
+    
+}
 
 .team-name {
     color: var(--dark);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.11; /* 1,2 */
+    line-height: 1.2; 
     letter-spacing: 0.4px;
     text-align: center
     text-transform: capitalize 
 }
 
 .team-job {
-    color: var(--dark);
+    color: var(--text);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5; /* 1,5 */
@@ -178,15 +193,18 @@ font-style: normal;
 
 .all {
     color: var(--primary-dark);
-    background-color: var(--light);
+    background-color: var(--pressed-state)
+    font-family: "Roboto", sans-serif;
     text-align: center;
+    letter-spacing: 0.04em;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     border: none;
     list-style: none;
-    text-decoration: none;    
+    text-decoration: none;  
+    cursor: pointer;  
 }
 
 .all:hover {
@@ -221,6 +239,17 @@ font-style: normal;
 .footer {
     background-color: #2E2F42;
     color: #FFFFFF;
+}
+.link-logo-f {
+    color: var(--primary-dark);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none
 }
 
 .accent-footer {
