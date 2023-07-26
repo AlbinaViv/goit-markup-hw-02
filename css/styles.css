@@ -29,7 +29,7 @@ body {
 }
 /* lodo */
 
-.link-logo, .logo {
+.link-logo {
     color: var(--primary-dark);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -38,7 +38,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    text-decoration: none;
 }
 .accent {
     color: var(--dark);
