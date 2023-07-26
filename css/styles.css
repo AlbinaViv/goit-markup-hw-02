@@ -83,13 +83,14 @@ body {
 }
 
 /* benefits header*/
-
+.link {
+   text-decoration: none; 
+}     
 .header-link:hover {
     color: var(--pressed-state);
 }   
 .header-link {
     color: var(--dark);
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
