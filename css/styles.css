@@ -69,14 +69,16 @@ a {
     text-decoration: none;
 }
 
-.link {
+.logo {
     color: var(--primary-dark);
     font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.17,
-    letter-spacing: 0.03em;
+    line-height: 1,17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -87,17 +89,20 @@ a {
 
 /* benefits header*/
 
-.list-stu:hover, .list-por:hover, .list-con:hover {
+.header-link:hover {
     color: var(--pressed-state);
 }   
-.list-stu, .list-por, .list-con {
+.header-link {
     color: var(--dark);
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1,5;
-    letter-spacing: 0.02em 
-    list-style: none
+    letter-spacing: 0.32px;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .mail:hover, .tel:hover {
