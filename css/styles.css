@@ -1,10 +1,4 @@
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/raleway-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
+
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Roboto';
@@ -36,6 +30,13 @@
     font-weight: 900;
     src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
   
 
 
@@ -54,26 +55,28 @@
    --modal-background: #FCFCFC;
 }
 
-/* lodo */
-
-body {
+body, .body {
     color: var(--text);
     background-color: var(--white-background);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
+.link {
+  text-decoration: none;  
+}
+.list {
+  list-style: none  
+}
+/* lodo */
 
-
-.logo {
+.link-logo {
     color: var(--primary-dark);
     font-family: 'Raleway', sans-serif;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 1,17;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -82,14 +85,13 @@ body {
     color: var(--dark);
 }
 
-/* benefits header*/
-.link {
-   text-decoration: none; 
-}     
-.header-link:hover {
+/*  header*/
+     
+.list-nav:hover {
     color: var(--pressed-state);
 }   
-.header-link {
+.list-nav {
+    font-family: 'Roboto', sans-serif;
     color: var(--dark);
     font-size: 16px;
     font-style: normal;
@@ -101,11 +103,11 @@ body {
     text-decoration: none;
 }
 
-.mail:hover, .tel:hover {
+.link-mail:hover .link-tel:hover {
    color: var(--pressed-state);
 }
 
-.mail, .tel {
+.link-mail, .link-tel {
     color: var(--text);
     font-size: 16px;
     font-style: normal;
