@@ -14,17 +14,17 @@
    --modal-background: #FCFCFC;
 }
 
-body, .body {
+body {
     color: var(--text);
     background-color: var(--white-background);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-.link {
+.list {
   text-decoration: none;
   list-style-type: none;  
 }
-.list {
+.link {
   list-style: none  
 }
 /* lodo */
@@ -37,7 +37,7 @@ body, .body {
     font-weight: 800;
     line-height: 1,17;
     letter-spacing: 0.54px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -47,11 +47,10 @@ body, .body {
 
 /*  header*/
      
-.link-nav:hover {
+.list-nav:hover {
     color: var(--pressed-state);
 }   
-.link-nav {
-    font-family: 'Roboto', sans-serif;
+.list, .list-nav {
     color: var(--dark);
     font-size: 16px;
     font-style: normal;
@@ -61,13 +60,14 @@ body, .body {
     list-style: none;
     text-transform: capitalize;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
-.link-mail:hover .link-tel:hover {
+.link-mail:hover, .link-tel:hover {
    color: var(--pressed-state);
 }
 
-.link-mail, .link-tel {
+.list, .link-mail, .link-tel {
     color: var(--text);
     font-size: 16px;
     font-style: normal;
@@ -75,6 +75,8 @@ body, .body {
     line-height: 24px; /* 1,5 */
     letter-spacing: 0.32px;
     font-style: normal;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* style on main */
