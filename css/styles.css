@@ -78,7 +78,7 @@ body, .body {
     font-weight: 800;
     line-height: 1,17;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ body, .body {
     line-height: 1,5;
     letter-spacing: 0.32px;
     list-style: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ body, .body {
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .hero-button {
     color: var(--white-background);
@@ -142,7 +142,7 @@ body, .body {
     front-weight: 16px;
     line-height: 1,5;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
 }
 
