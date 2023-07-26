@@ -65,7 +65,7 @@ body {
    color: var(--pressed-state);
 }
 
-.list, .link-mail, .link-tel {
+.link-mail, .link-tel {
     color: var(--text);
     font-size: 16px;
     font-style: normal;
@@ -75,6 +75,9 @@ body {
     font-style: normal;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+}
+.navigation {    
+font-style: normal;
 }
 
 /* style on main */
