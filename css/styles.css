@@ -21,11 +21,11 @@ body {
     font-style: normal;
 }
 .list {
-  text-decoration: none;
   list-style-type: none;  
 }
 .link {
-  list-style: none  
+  list-style: none;  
+  text-decoration: none;
 }
 /* lodo */
 
@@ -40,7 +40,6 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-
 .accent {
     color: var(--dark);
 }
