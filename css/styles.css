@@ -215,7 +215,8 @@ color: var(--text);
     border: none;
     list-style: none;
     text-decoration: none;  
-    cursor: pointer;  
+    cursor: pointer; 
+    font-family: "Roboto", sans-serif; 
 }
 
 .all:hover {
