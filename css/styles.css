@@ -225,7 +225,7 @@ font-style: normal;
 
  }
  .all:focus {
-    color: var(--pressed-state)
+    color: var(--pressed-state);
  }
 /* cards-section */
 
