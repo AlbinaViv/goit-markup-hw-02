@@ -64,14 +64,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.link-mail:hover, .link-tel:hover {
+.link-mail-tel:hover, .link-mail-tel:hover {
    color: var(--pressed-state);
 }
-.link-mail:focus, .link-tel:focus {
+.link-mail-tel:focus, .link-tel:focus {
    color: var(--pressed-state);
 }
 
-.link-mail, .link-tel {
+.link-mail-tel, .link-tel {
     color: var(--text);
     font-size: 16px;
     font-style: normal;
